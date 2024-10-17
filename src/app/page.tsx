@@ -101,7 +101,7 @@ export default function Home() {
                 <div className="flex flex-col justify-center">
                   <Circle
                     ref={div4Ref}
-                    className="size-16 sm:size-24 bg-[#C7FFC6]"
+                    className="size-16 sm:size-24 !bg-[#C7FFC6]"
                   >
                     <Image
                       src="/greentradingbot.png"
