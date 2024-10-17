@@ -15,7 +15,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: 'Green Trading Bot',
+  title: 'EcoTrade',
   description:
     'Eco-friendly algorithmic trading bot for sustainable investing. Optimize your portfolio while supporting green initiatives.',
 };

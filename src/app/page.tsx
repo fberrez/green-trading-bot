@@ -210,31 +210,6 @@ export default function Home() {
               <Card className="flex flex-col h-full">
                 <CardHeader>
                   <CardTitle className="text-xl sm:text-2xl font-semibold text-[#00b15a]">
-                    AI-Powered Analysis
-                  </CardTitle>
-                </CardHeader>
-                <CardContent className="flex-grow">
-                  <p className="text-sm sm:text-base text-gray-600 mb-4">
-                    Our advanced algorithms analyze market trends and company
-                    performance to identify the most promising ethical
-                    investments.
-                  </p>
-                  <ul className="list-disc list-inside text-sm sm:text-base text-gray-600">
-                    <li>Real-time market data processing</li>
-                    <li>Environmental and social impact assessment</li>
-                    <li>Risk management and portfolio optimization</li>
-                  </ul>
-                </CardContent>
-              </Card>
-            </motion.div>
-            <motion.div
-              whileHover={{ scale: 1.05, y: -5 }}
-              transition={{ type: 'spring', stiffness: 300 }}
-              className="h-full"
-            >
-              <Card className="flex flex-col h-full">
-                <CardHeader>
-                  <CardTitle className="text-xl sm:text-2xl font-semibold text-[#00b15a]">
                     Handpicked Investments
                   </CardTitle>
                 </CardHeader>
@@ -252,6 +227,36 @@ export default function Home() {
                     <li>
                       Companies that are socially responsible and have a
                       positive impact on society
+                    </li>
+                  </ul>
+                </CardContent>
+              </Card>
+            </motion.div>
+            <motion.div
+              whileHover={{ scale: 1.05, y: -5 }}
+              transition={{ type: 'spring', stiffness: 300 }}
+              className="h-full"
+            >
+              <Card className="flex flex-col h-full">
+                <CardHeader>
+                  <CardTitle className="text-xl sm:text-2xl font-semibold text-[#00b15a]">
+                    Algorithmic Analysis (No AI)
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="flex-grow">
+                  <p className="text-sm sm:text-base text-gray-600 mb-4">
+                    Our advanced algorithms analyze market trends and company
+                    performance to identify the most promising ethical
+                    investments.
+                  </p>
+                  <ul className="list-disc list-inside text-sm sm:text-base text-gray-600">
+                    <li>Real-time market data processing</li>
+                    <li>Environmental and social impact assessment</li>
+                    <li>Risk management and portfolio optimization</li>
+                    <li>
+                      Currently, we rely on traditional algorithms: AI and ML
+                      models are not yet sufficiently advanced for our trading
+                      standards.
                     </li>
                   </ul>
                 </CardContent>
