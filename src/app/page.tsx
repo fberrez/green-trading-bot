@@ -57,8 +57,8 @@ export default function Home() {
               </Link>
             </div>
             <p className="text-sm sm:text-base text-gray-600">
-              <span className="text-[#00b15a] font-semibold">100+ people</span>{' '}
-              are in the waitlist
+              <span className="text-[#00b15a] font-semibold">Join</span> the
+              waitlist now
             </p>
           </motion.div>
           <motion.div
