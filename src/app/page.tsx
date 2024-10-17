@@ -122,21 +122,33 @@ export default function Home() {
                 containerRef={containerRef}
                 fromRef={div1Ref}
                 toRef={div4Ref}
+                gradientStartColor="#02B15A"
+                gradientStopColor="#C7FFC6"
+                pathWidth={4}
               />
               <AnimatedBeam
                 containerRef={containerRef}
                 fromRef={div2Ref}
                 toRef={div4Ref}
+                gradientStartColor="#02B15A"
+                gradientStopColor="#C7FFC6"
+                pathWidth={4}
               />
               <AnimatedBeam
                 containerRef={containerRef}
                 fromRef={div3Ref}
                 toRef={div4Ref}
+                gradientStartColor="#02B15A"
+                gradientStopColor="#C7FFC6"
+                pathWidth={4}
               />
               <AnimatedBeam
                 containerRef={containerRef}
                 fromRef={div4Ref}
                 toRef={div6Ref}
+                gradientStartColor="#02B15A"
+                gradientStopColor="#C7FFC6"
+                pathWidth={4}
               />
             </div>
           </motion.div>
